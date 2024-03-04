@@ -30,6 +30,60 @@ body {
   padding: 0;
   background-color: var(--cream) !important;
 }
+.navbar {
+  background-color: var(--light-blue);
+}
+.navbar-collapse {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: var(--cream);
+}
+.navbar-toggler:focus {
+  border: solid;
+  border-color: var(--navy) !important;
+  border-radius: 10px !important;
+  box-shadow: none !important;
+}
+.navbar-toggler {
+  border: none !important;
+}
+.navbar-toggler-icon {
+  background-image: none !important;
+}
+.fa-bars {
+  color: var(--navy);
+}
+.fa-bars:click {
+  color: var(--darker-blue);
+}
+.navbar-text {
+  font-family: "Libre-Baskerville-Regular";
+  font-size: 30px;
+  color: var(--navy) !important;
+}
+.navbar-text:hover {
+  font-family: "Libre-Baskerville-Regular";
+  font-size: 30px;
+  color: var(--darker-blue) !important;
+}
+.navbar-toggler,
+.navbar-brand {
+  z-index: 1;
+}
+.navbar-collapse .nav-link {
+  font-size: 1.5em;
+  letter-spacing: 2px;
+}
+.nav-item:not(:last-child) {
+  padding: 0.2em 4em;
+}
 .body-text {
   font-family: "Libre-Baskerville-Regular";
   font-size: 15px;
@@ -263,6 +317,11 @@ iframe {
 /* Responsive Alternations */
 @media (max-width: 768px) {
   /* General*/
+  .navbar {
+    border: solid;
+    border-width: 5px;
+    border-color: var(--light-blue);
+  }
   .body-text {
     font-size: 12px;
   }
