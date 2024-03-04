@@ -322,6 +322,10 @@ iframe {
     display: inline-block;
   }
 
+  #carouselFavorites {
+    width: 70%;
+  }
+
   /* .favorites-container .active.carousel-item-start {
     transition: none !important;
   }
