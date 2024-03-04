@@ -131,7 +131,7 @@
         <section id="contact">
             <div class="contact-container">
                 <div class="left-col">
-                    <iframe loading="lazy" allowfullscreen src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJvRVLAQtF5IkRRVd5lTRCQ0Q&key=AIzaSyAjrqQ-OnOi-AdNzf8JE1zonGsBk0boqi0"></iframe>
+                    <iframe id="google-map" loading="lazy" allowfullscreen src=""></iframe>
                 </div>
                 <div class="right-col">
                     <h3 class="subtext"> CONTACT </h3>
@@ -170,5 +170,12 @@
         </section>
 
     </main>
+    <script src="config.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const mapIframe = document.getElementById('google-map');
+            mapIframe.src = `https://www.google.com/maps/embed/v1/place?q=place_id:ChIJvRVLAQtF5IkRRVd5lTRCQ0Q&key=${apiKey}`;
+        });
+    </script>
 </body>
 </html>
