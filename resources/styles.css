@@ -46,7 +46,7 @@ body {
   top: 0;
   left: 0;
   right: 0;
-  min-height: 110vh;
+  height: 110vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -644,7 +644,7 @@ iframe {
   .footer-container .footer-info .fa-twitter,
   .footer-container .footer-info .fa-instagram,
   .footer-container .footer-info .fa-facebook {
-    font-size: 70px; 
+    font-size: 70px;
   }
   .fa-bars {
     font-size: 100px;
