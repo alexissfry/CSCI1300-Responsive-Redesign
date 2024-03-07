@@ -324,7 +324,7 @@ iframe {
 }
 
 /* Responsive Alternations for Tablet */
-@media (max-width: 800px) {
+@media (max-width: 796px) {
   /* General*/
   .nav-item h1 {
     font-size: 100px;
@@ -367,7 +367,7 @@ iframe {
     align-items: center;
     padding-right: 2rem;
     padding-left: 2rem;
-    min-height: 80vh;
+    min-height: 150vh;
   }
 
   /* Favorites Section*/
@@ -391,16 +391,6 @@ iframe {
   #carouselFavorites {
     width: 90%;
   }
-
-  /* .favorites-container .active.carousel-item-start {
-    transition: none !important;
-  }
-  .favorites-container .active.carousel-item-end {
-    transition: none !important;
-  }
-  .favorites-container .carousel-item {
-    transition: none !important;
-  }*/
 
   .carousel-control-prev {
     opacity: 1 !important;
@@ -522,16 +512,6 @@ iframe {
   #carouselFavorites {
     width: 90%;
   }
-
-  /* .favorites-container .active.carousel-item-start {
-    transition: none !important;
-  }
-  .favorites-container .active.carousel-item-end {
-    transition: none !important;
-  }
-  .favorites-container .carousel-item {
-    transition: none !important;
-  }*/
 
   .carousel-control-prev {
     opacity: 1 !important;
