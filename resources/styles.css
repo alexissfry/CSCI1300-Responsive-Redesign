@@ -33,7 +33,7 @@ body {
   overflow-x: hidden;
 }
 .nav-item h1 {
-  font-family: "Old-Fashioned-Script";
+  font-family: "Old-Fashioned-Script", sans-serif;
   font-size: 150px;
   line-height: 0.7;
   color: var(--navy);
@@ -72,12 +72,12 @@ body {
   color: var(--darker-blue);
 }
 .navbar-text {
-  font-family: "Libre-Baskerville-Regular";
+  font-family: "Libre-Baskerville-Regular", sans-serif;
   font-size: 30px;
   color: var(--navy) !important;
 }
 .navbar-text:hover {
-  font-family: "Libre-Baskerville-Regular";
+  font-family: "Libre-Baskerville-Regular", sans-serif;
   font-size: 30px;
   color: var(--darker-blue) !important;
 }
@@ -93,17 +93,17 @@ body {
   padding: 0.2em 4em;
 }
 .body-text {
-  font-family: "Libre-Baskerville-Regular";
+  font-family: "Libre-Baskerville-Regular", sans-serif;
   font-size: 15px;
   color: var(--navy);
 }
 .section-title {
-  font-family: "Old-Fashioned-Script";
+  font-family: "Old-Fashioned-Script", sans-serif;
   font-size: 75px;
   color: var(--navy);
 }
 .subtext {
-  font-family: "Libre-Baskerville-Bold";
+  font-family: "Libre-Baskerville-Bold", sans-serif;
   font-size: 20px;
   color: var(--navy);
 }
@@ -138,12 +138,12 @@ body {
   height: 150px;
 }
 #landing .landing-container h1 {
-  font-family: "Old-Fashioned-Script";
+  font-family: "Old-Fashioned-Script", sans-serif;
   font-size: 150px;
   color: var(--navy);
 }
 #landing .landing-container h2 {
-  font-family: "Libre-Baskerville-Regular";
+  font-family: "Libre-Baskerville-Regular", sans-serif;
   color: var(--navy);
 }
 
@@ -174,7 +174,7 @@ body {
   text-decoration: underline;
 }
 #favorites a:hover {
-  font-family: "Libre-Baskerville-Bold";
+  font-family: "Libre-Baskerville-Bold", sans-serif;
   color: var(--darker-blue);
   text-decoration: underline;
 }
@@ -207,14 +207,14 @@ body {
   align-items: center;
 }
 #favorites button {
-  font-family: "Libre-Baskerville-Regular";
+  font-family: "Libre-Baskerville-Regular", sans-serif;
   color: var(--navy);
   background-color: var(--light-blue);
   border: none;
   font-size: 20px;
 }
 #favorites button:hover {
-  font-family: "Libre-Baskerville-Regular";
+  font-family: "Libre-Baskerville-Regular", sans-serif;
   color: var(--navy);
   background-color: var(--darker-blue);
   border: none;
