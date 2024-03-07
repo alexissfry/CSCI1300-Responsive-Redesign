@@ -125,7 +125,7 @@ body {
 
 /* Landing Section*/
 #landing .landing-container {
-  min-height: 80vh;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -582,13 +582,13 @@ iframe {
   }
 }
 
+/* Responsive Alternations for Large Desktop */
 @media (min-width: 3000px) {
-  /* Layout and Container Widths */
   .about-container,
   .favorites-container,
   .contact-container {
-    max-width: 2500px; /* Adjust the maximum width as needed */
-    margin: 0 auto; /* Center the containers horizontally */
+    max-width: 2500px;
+    margin: 0 auto;
   }
   #landing .landing-container h1 {
     font-size: 300px;
@@ -601,10 +601,10 @@ iframe {
     font-size: 80px;
   }
   .subtext {
-    font-size: 75px; /* Increase the font size for subtext */
+    font-size: 75px;
   }
   .section-title {
-    font-size: 300px; /* Increase the font size for section titles */
+    font-size: 300px;
   }
   .body-text {
     font-size: 50px;
@@ -644,7 +644,7 @@ iframe {
   .footer-container .footer-info .fa-twitter,
   .footer-container .footer-info .fa-instagram,
   .footer-container .footer-info .fa-facebook {
-    font-size: 70px; /* Increase the font size as needed */
+    font-size: 70px; 
   }
   .fa-bars {
     font-size: 100px;
