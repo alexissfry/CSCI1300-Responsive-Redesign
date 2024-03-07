@@ -408,7 +408,7 @@ iframe {
     justify-content: center;
     padding-right: 2rem;
     padding-left: 2rem;
-    min-height: 65vh;
+    min-height: 100vh;
   }
   #contact .contact-container li {
     list-style: none;
@@ -488,14 +488,14 @@ iframe {
     align-items: space-evenly;
     padding-right: 2rem;
     padding-left: 2rem;
-    min-height: 120vh;
+    min-height: 100vh;
   }
 
   /* Favorites Section*/
   #favorites .favorites-container {
     padding-right: 2rem;
     padding-left: 2rem;
-    min-height: 75vh;
+    min-height: 70vh;
   }
   #favorites .favorites-container .favorite-desserts {
     display: none;
@@ -529,7 +529,7 @@ iframe {
     justify-content: center;
     padding-right: 2rem;
     padding-left: 2rem;
-    min-height: 100vh;
+    min-height: 90vh;
   }
   #contact .contact-container li {
     list-style: none;
